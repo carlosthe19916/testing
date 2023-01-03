@@ -31,6 +31,10 @@ repositories {
 dependencies {
     implementation 'io.github.project-openubl:xbuilder:2.0.0-Beta4'
     implementation 'io.github.project-openubl:xsender:4.0.0.Final'
+
+    runtimeOnly("jakarta.xml.soap:jakarta.xml.soap-api:1.4.2")
+    runtimeOnly("jakarta.xml.ws:jakarta.xml.ws-api:2.3.3")
+    runtimeOnly("jakarta.annotation:jakarta.annotation-api:1.3.5")
 }
 
 //implementation 'jakarta.xml.ws:jakarta.xml.ws-api:4.0.0'
